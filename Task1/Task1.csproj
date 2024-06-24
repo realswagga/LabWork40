@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="fas.png" />
+    <None Remove="flashz.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="fas.png" />
+    <Resource Include="flashz.png" />
+  </ItemGroup>
+
+</Project>
